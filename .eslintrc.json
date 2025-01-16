@@ -5,6 +5,6 @@
 
     "rules": {
         "camelcase":"off",
-        "no-unseless-constructor": "off"
+        "no-unseless-constructor": "on"
     }
 }
