@@ -1,4 +1,4 @@
-import GymsRepository from '@/repositories/gyms-repository'
+import { GymsRepository } from '@/repositories/gyms-repository'
 import { beforeEach, describe, expect, it } from 'vitest'
 import { SearchGymsUseCase } from './search-gyms'
 import { InMemoryGymsRepository } from '@/repositories/in-memory/in-memory-gyms-repository'
@@ -47,7 +47,7 @@ describe('Search Gyms Use Case', async () => {
       })
     }
 
-    const { gyms } = await sut.execute({
+    const gyms = await sut.execute({
       query: 'JavaScript',
       page: 2,
     })
