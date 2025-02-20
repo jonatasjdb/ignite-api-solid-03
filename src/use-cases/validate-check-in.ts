@@ -37,8 +37,6 @@ export class ValidateCheckInUseCase {
 
     await this.checkInsRepository.save(checkIn)
 
-    return {
-      checkIn,
-    }
+    return checkIn
   }
 }
