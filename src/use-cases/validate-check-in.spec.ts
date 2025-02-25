@@ -24,7 +24,7 @@ describe('Validate Check-in Use Case', () => {
       user_id: 'user-01',
     })
 
-    const { checkIn } = await sut.execute({
+    const checkIn = await sut.execute({
       checkInId: createdCheckIn.id,
     })
 
