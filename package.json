@@ -21,7 +21,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@prisma/client": "6.3.1",
     "@rocketseat/eslint-config": "2.2.2",
     "@types/node": "22.10.5",
     "@types/supertest": "6.0.2",
@@ -37,7 +36,9 @@
     "vitest": "2.1.8"
   },
   "dependencies": {
+    "@fastify/cookie": "11.0.2",
     "@fastify/jwt": "9.0.3",
+    "@prisma/client": "6.4.1",
     "@types/bcryptjs": "2.4.6",
     "bcryptjs": "2.4.3",
     "dayjs": "1.11.13",
